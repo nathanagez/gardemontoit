@@ -19,28 +19,6 @@
       "configurable": false,
       "required": true
     },
-    "phoneNumber": {
-      "type": "string",
-      "unique": true,
-      "configurable": false,
-      "required": true
-    },
-    "firstName": {
-      "type": "string",
-      "minLength": 3,
-      "configurable": false,
-      "required": true
-    },
-    "lastName": {
-      "type": "string",
-      "minLength": 3,
-      "configurable": false,
-      "required": true
-    },
-    "avatar": {
-      "type": "media",
-      "configurable": false
-    },
     "email": {
       "type": "email",
       "minLength": 6,

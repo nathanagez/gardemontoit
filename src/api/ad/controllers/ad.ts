@@ -1,7 +1,7 @@
 /**
  * ad controller
  */
-import { Strapi } from '@strapi/types';
+import { Strapi } from '@strapi/strapi';
 
 const { createCoreController } = require('@strapi/strapi').factories;
 

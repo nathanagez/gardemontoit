@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_infos",
+  "info": {
+    "singularName": "user-info",
+    "pluralName": "user-infos",
+    "displayName": "user-info"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "phoneNumber": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "media",
+      "allowedTypes": [
+        "images"
+      ],
+      "multiple": false
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "user_info": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}

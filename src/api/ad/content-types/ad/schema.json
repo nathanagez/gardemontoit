@@ -17,6 +17,14 @@
     "description": {
       "type": "string"
     },
+    "adType": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
     "thumbnails": {
       "type": "media",
       "multiple": true,
